@@ -77,7 +77,7 @@ cd jmeter-performance
 2. Execute o comando do JMeter:
 ```
 Bash   
-cd jmeter-performance
+jmeter -n -t load-test.jmx -l resultado.csv -e -o relatorio_html
 ```
 3. Abra o arquivo `relatorio_html/index.html` no seu navegador para analisar as métricas de Throughput, Tempo de Resposta e Percentis (P90/P95/P99).
 
